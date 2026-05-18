@@ -1,0 +1,37 @@
+{
+  "name": "llamaindex",
+  "owner": {
+    "name": "Llamaindex"
+  },
+  "description": "Claude Code marketplace federating every @amlplugins/llamaindex-* plugin under a single marketplace source.",
+  "plugins": [
+    {
+      "name": "llamaindex-anthropic",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/llamaindex-anthropic.git"
+      }
+    },
+    {
+      "name": "llamaindex-google",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/llamaindex-google.git"
+      }
+    },
+    {
+      "name": "llamaindex-meta",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/llamaindex-meta.git"
+      }
+    },
+    {
+      "name": "llamaindex-openai",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/llamaindex-openai.git"
+      }
+    }
+  ]
+}
